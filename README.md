@@ -9,14 +9,32 @@ Branch 1: Initialization
 Branch 2: Editor
 - Reset
 
-Branch 3: 
-Branch 4: 
-Branch 5: 
-Branch 6: 
-Branch 7: 
-Branch 8: 
-Branch 9: 
-Branch 10: 
+Branch 3: Initialization
+- Start
+
+Branch 4: Physics
+- FixedUpdate
+- Internal animation update
+-- State machine update
+-- OnStateMachineEnter/Exit
+
+Branch 5: Input events
+-
+
+Branch 6: Game logic
+-
+
+Branch 7: Scene rendering
+- 
+
+Branch 8: Gizmo rendering
+- OnDrawGizmos
+
+Branch 9: GUI rendering
+- OnGUI
+
+Branch 10: End of frame
+- yield WaitForEndOfFrame
 
 Branch 11: Pausing
 - OnApplicationPause
