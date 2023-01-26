@@ -15,8 +15,8 @@ Branch 3: Initialization
 Branch 4: Physics
 - FixedUpdate
 - Internal animation update
--- State machine update
--- OnStateMachineEnter/Exit
+* State machine update
+* OnStateMachineEnter/Exit
 
 Branch 5: Input events
 -
