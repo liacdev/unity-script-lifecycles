@@ -15,17 +15,51 @@ Branch 3: Initialization
 Branch 4: Physics
 - FixedUpdate
 - Internal animation update
-* State machine update
-* OnStateMachineEnter/Exit
+- State machine update
+- OnStateMachineEnter/Exit
+- ProcessGraph
+- Fire animatin events
+- StateMachineBevaviour callbacks
+- OnAnimatorMove
+- Internal physics update
+- Process animation
+- OnAnimator1K
+- WriteTransform
+- WriteProperties
+- OnTriggerXXX
+- OnCollisionXXX
+- yield WaitForFixedUpdate
 
 Branch 5: Input events
--
+- OnMouseXXX
 
 Branch 6: Game logic
--
+- Update
+- yield null
+- yield WaitForSeconds
+- yield WWW
+- yield StartCoroutine
+- StateMachineUpdate
+- OnStateMachineEnter/Exit
+- ProcessGraph
+- Fire animation events
+- StateMachineBehavious callbacks
+- OnAnimatorMove
+- ProcessAnimation
+- OnAnimator1K
+- WriteTransform
+- WriteProperties
+- LateUpdate
 
 Branch 7: Scene rendering
-- 
+- OnPreCull
+- OnWillRenderObject
+- OnBecameVisible
+- OnBecameInvisible
+- OnPreRender
+- OnRenderObject
+- OnPostRender
+- OnRenderImage
 
 Branch 8: Gizmo rendering
 - OnDrawGizmos
